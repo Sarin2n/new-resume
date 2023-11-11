@@ -13,6 +13,7 @@
     left: 0;
     width: 100% ;
     padding: 20px 10% ;
+    background-color: transparent ;
     display: flex;
     justify-content: space-between ;
     align-items: center ;
@@ -41,7 +42,7 @@
     color:rgb(255, 171, 115) ;
 }
 
-.home {
+.about {
     height: 100vh ;
     background: white ;
     display: flex ;
@@ -50,64 +51,32 @@
     padding: 0 10% ;
 }
 
-.home-image {
+.about-image {
     display: flex ;
     justify-content: center ;
     align-items: center ;
     width: 500px ;
     height: 500px ;
     background: transparent ;
-    margin-left: 100px ;
-    margin-top: 100px ;
+    margin-left: 80px ;
 }
 
-.home-image img {
+.about-image img {
     position: relative ;
-    max-width: 450px ;
+    max-width: 700px ;
 }
 
-.home-content {
-    max-width: 500px ;
+
+
+.about-content {
+    max-width: 750px ;
     color: black ;
-    text-align: left ;
-    margin-right: 100px ;
+    text-align: center ;
 }
 
-.home-content h1 {
-    font-size: 50px ;
-    line-height: 1.2 ;
-}
-
-.home-content h3 {
+.about-content p {
     font-size: 30px ;
-    color: rgb(255, 171, 115) ;
-}
-
-.home-content p {
-    font-size: 16px ;
+    line-height: 1.5 ;
     margin-top: 20px ;
-}
 
-.homw-sci {
-    margin: 25px 0 40px ;
-}
-.home-sci a {
-    display: inline-flex ;
-    justify-content: center ;
-    align-items: center ;
-    width: 40px ;
-    height: 40px ;
-    background: transparent ;
-    border: 2px solid rgb(255, 171, 115) ;
-    border-radius: 50% ;
-    font-size: 20px ;
-    color: rgb(255, 171, 115) ;
-    text-decoration: none ;
-    margin-left: 12px ;
-    transition: .5s;
-}
-
-.home-sci a:hover {
-    background:rgb(255, 171, 115) ;
-    color: white ;
 }
